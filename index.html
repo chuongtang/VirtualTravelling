@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C6 - Project 1</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#dde6ef">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <h5>Built by <img src="./FaviconPackage/FaviconCLear.png" id='FaviconCLear'> , a Junior Developer from C6  </h5>
+    
+  <!-- Menu overlay -->
+  <div class="overlay overlay-slide-ouy" id="overlay">
+    <!-- Menu items -->
+    <nav>
+      <ul>
+        <li id="nav1"><a href="#home">Home, 🏡 Where memories are kept</a></li>
+        <li id="nav2"><a href="#africa">Africa🐫 </a></li>
+        <li id="nav3"><a href="#southAmerica">South America 🌵</a></li>
+        <li id="nav4"><a href="#australia">Australia 🦘</a></li>
+        <li id="nav5"><a href="#antarctica">Antarctica 🐧</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Menu bars -->
+  <div class="menu-bars" id="menu-bars">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <!-- Cards display section -->
+    
+  <!-- Sections -->
+  <section id="home"><h1>Share your experience</h1>
+    <div class="parentcard" id="parentcard">
+      <!-- cards area  -->
+ 
+  </div>
+    <div class="mainContainer" id='mainContainer'>  
+      <div class="createCardContainer" id='createCardContainer'>
+        <div class="creatTitle">
+          <h3 id='postTitle' >Capture your great ⛵ moment</h3>
+          <h3 id='editTitle' hidden>📝Editting your 💌🙋 </h3>
+        </div>
+        <form action="" class="form" id="memoryForm">
+          Name: <input type="text" name="name" id="name"><br>
+          Place: <input type="text" name="place" id="place" placeholder="where did you travel?✈"><br>
+          Travel date<input name='travelDate' type="date" id="travelDate" for="date-picker"><br>
+          Tags: <input type="text" name="tags" id="tags" placeholder="comma seperated"><br>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Share you great travel 🚣‍♀️ here"></textarea><br><br>
+          <input type="button" id="postButton" value="Submit 🚀">
+          <input type="button" hidden id="updateButton" value="✍ update API">
+        </form>      
+      </div>
+      
+    </div>
+    <div><button id="fetchButton"> fetch <i class="fab fa-earlybirds"></i>  Memories from API</button></div>
+  </section>
+  <!-- Africa Section -->
+  <section id="africa">
+    <p>Africa<br>There's nowhere like it on the planet for wildlife, wild lands and rich traditions that endure. Prepare to fall in love.</p>
+    <div class="mainContainer" id='mainContainer'>  
+      <div class="createCardContainer" id='createCardContainer'>
+        <!-- <img src="./img/africa1.jpg" alt="africa1" style="max-width: 70%;">  -->
+        <video width="800" autoplay muted loop>
+          <source src="https://www.pexels.com/video/5220297/download/?search_query=south%20africa&tracking_id=6fdtw036py9https://www.pexels.com/video/852338/download/?search_query=forest&tracking_id=6fdtw036py9" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+  <!-- South America -->
+  <section id="southAmerica">
+    <p>South America<br>Andean peaks, Amazonian rainforest, Patagonian glaciers, Incan ruins, colonial towns, white-sand beaches and vertiginous nightlife: the wonders of South America set the stage for incredible adventures.</p>
+    <div class="mainContainer" id='mainContainer'>  
+      <div class="createCardContainer" id='createCardContainer'>
+        <video width="800" autoplay muted loop>
+          <source src="https://www.pexels.com/video/7036843/download/?search_query=animal&tracking_id=6fdtw036py9" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+  <!-- Australia -->
+  <section id="australia">
+    <p>Australia & Pacific<br>Its medley of mountains, deserts, reefs, forests, beaches and multicultural cities are an eternal draw for travellers. Remote, beautiful and friendly, the Pacific islands’ white sands and clear waters are almost dreamlike in their perfection..</p>
+    <div class="mainContainer" id='mainContainer'>  
+      <div class="createCardContainer" id='createCardContainer'>
+        <video width="800" autoplay muted loop>
+          <source src="https://www.pexels.com/video/855436/download/?search_query=&tracking_id=6fdtw036py9" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+  <!-- Antarctica -->
+  <section id="antarctica">
+    <p>Antarctica<br>No place on Earth compares to this vast white wilderness of elemental forces: snow, ice, water, rock. Antarctica is simply stunning.</p>
+    <div class="mainContainer" id='mainContainer'>  
+      <div class="createCardContainer" id='createCardContainer'>
+        <video width="800" autoplay muted loop>
+          <source src="https://www.pexels.com/video/852376/download/?search_query=cold&tracking_id=6fdtw036py9" type="video/mp4">
+        </video> 
+      </div>
+    </div>
+  </section>
+  <!-- Script -->
+  <script src="script.js" type="module"></script>
+</body>
+</html>

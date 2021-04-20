@@ -1,0 +1,20 @@
+{
+  "name": "projectoneexpress",
+  "version": "1.0.0",
+  "description": "<NPM joi> allow you to create blueprints or schemas for Javascript Object to ensure validation of key information.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {}
+}
