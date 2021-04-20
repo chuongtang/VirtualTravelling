@@ -1,11 +1,8 @@
 # World Travelling 🛩️ ⛵
 
-Before Covid-19, we were the ones who loved packing light, jumping on a plane. Or out of one. Landing in a new city. Choosing the dish on the menu we’re least familiar with. Delighting in a deep conversation with a stranger at a bar we’ve never been to before. 
-So what’s options do we have when the world’s in lockdown?
+A little imagination during covid! What if we can travel to places see different scenes...in the digital world.
 
-But then I realized, you can just as easily travel through conversation with someone who lives in another part of the world. You can travel through their stories, their experiences, their joy, their memories.
-
-This site was created when I was working on **Project 1** of my **Cohort 6**. Imagines and memories can be shared to others who travel..virtually via my little code work.
+This site was created when I was working on Project 1 of my cohort. Imagines and memories can be shared to others who travel..virtually through my little coding work.
 
 ## Project Detail:
 
@@ -18,11 +15,11 @@ This site was created when I was working on **Project 1** of my **Cohort 6**. Im
 * A responsive advanced CSS navigation
 * DOM manipulation by pure Javascript, no framework.
 
-### New cool things that I learned 🎉
-* NPM Joi: allow you to create blueprints or schemas for Javascript Object to ensure validation of key information.
+### New cool thing that I learned
+* <NPM joi> allow you to create blueprints or schemas for Javascript Object to ensure validation of key information.
 
-* "const JoiSchema = Joi.object({...});" use this to fix the Joi.validate is not a function.
-* Resource used: 👍
+* <const JoiSchema = Joi.object({...});> use this to fix the Joi.validate is not a function.
+* Resource used:
     * Google Font
     * Unsplash image
     * Prexel Videos
