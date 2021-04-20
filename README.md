@@ -1,8 +1,9 @@
 # World Travelling 🛩️ ⛵
 
-A little imagination during covid! What if we can travel to places see different scenes...in the digital world.
+A little imagination during covid! 👻
+What if we can travel to places 🗺️ see different scenes 🎑...in the digital world. 
 
-This site was created when I was working on Project 1 of my cohort. Imagines and memories can be shared to others who travel..virtually through my little coding work.
+This site was created when I was working on Project 1 of my cohort. Imaginations and memories can be shared to others who travel..virtually through my little coding work.
 
 ## Project Detail:
 
