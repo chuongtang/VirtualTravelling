@@ -13,10 +13,10 @@ This site was created when I was working on Project 1 of my cohort. Imaginations
 * Database at https://c6project1api.herokuapp.com/api/memories/
 
 ### Frontend : 🖥️
-* A responsive advanced CSS navigation
+* A responsive advanced CSS navigation 🃏
 * DOM manipulation by pure Javascript, no framework.
 
-### New cool thing that I learned
+### New cool thing that I learned 🎉
 * <NPM joi> allow you to create blueprints or schemas for Javascript Object to ensure validation of key information.
 
 * <const JoiSchema = Joi.object({...});> use this to fix the Joi.validate is not a function.
