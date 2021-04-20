@@ -19,9 +19,9 @@ This site was created when I was working on **Project 1** of my **Cohort 6**. Im
 * DOM manipulation by pure Javascript, no framework.
 
 ### New cool things that I learned 🎉
-* <NPM joi> allow you to create blueprints or schemas for Javascript Object to ensure validation of key information.
+* NPM Joi: allow you to create blueprints or schemas for Javascript Object to ensure validation of key information.
 
-* <const JoiSchema = Joi.object({...});> use this to fix the Joi.validate is not a function.
+* "const JoiSchema = Joi.object({...});" use this to fix the Joi.validate is not a function.
 * Resource used: 👍
     * Google Font
     * Unsplash image
