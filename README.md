@@ -7,7 +7,7 @@ This site was created when I was working on Project 1 of my cohort. Imaginations
 
 ## Project Detail:
 
-### Backend 🖥
+### Backend 📲
 * Built with Node.js and Express.js
 * Hoisted on Heruku by Git
 * Database at https://c6project1api.herokuapp.com/api/memories/
