@@ -167,6 +167,33 @@ nav li:nth-of-type(5) { background-color: var(--navColor5);}
 /* Rotate last bar */
 .change .bar3 { transform: rotate(45deg) translate(-6px, -8px);}
 
+/* Loading animation when waiting for fetch */
+.lds-dual-ring {
+  display: inline-flexbox;
+  width: 80px;
+  height: 80px;
+  z-index: 3;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: rgb(126, 53, 53) transparent rgb(167, 74, 74) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+  z-index: 3;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* --- Sections ------------------------------------ */
 
 #parentcard {
@@ -199,6 +226,7 @@ nav li:nth-of-type(5) { background-color: var(--navColor5);}
   position: relative;
   left: 20px;
 }
+
 #fetchButton:hover {
 	background:linear-gradient(to bottom, #bee4e9 5%, #007dc1 100%);
 	/* background-color:#11ca11; */
@@ -278,7 +306,7 @@ section {
 
 section#home {
   background-image: url("./img/TravelWallpaper5.png");
-  background-size: 100% 100%;
+  background-size: auto 100%;
   background-position: top left;
 }
 
