@@ -23,7 +23,7 @@ body {
   background: #000;
   font-family: 'Josefin Sans', sans-serif;
   height: 100%; 
-  overflow: hidden;	
+  overflow: hidden
 
 }
 
@@ -185,8 +185,7 @@ nav li:nth-of-type(5) { background-color: var(--navColor5);}
 
 #fetchButton {
   box-shadow: 5px 6px 12px 6px #e6ebf0;
-	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-	background-color:#007dc1;
+	background:linear-gradient(to right, #313944 5%, #9A554C 100%);
 	border-radius:13px;
 	border:1px solid #124d77;
 	display:inline-block;
@@ -210,7 +209,7 @@ nav li:nth-of-type(5) { background-color: var(--navColor5);}
   border-color: #3797af;
   border-style: dotted;
   max-width: 10vw; 
-  background-color: rgba(179, 72, 72, 0.4);
+  background-color: rgba(179, 72, 72, 0.2);
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -278,8 +277,8 @@ section {
 }
 
 section#home {
-  background-image: url("./img/Travel-Wallpaper.png");
-  background-size: cover;
+  background-image: url("./img/TravelWallpaper5.png");
+  background-size: 100% 100%;
   background-position: top left;
 }
 
