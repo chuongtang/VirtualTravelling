@@ -185,3 +185,6 @@ navArray.forEach(element => element.addEventListener('click', toggleNav));
 //   🞜Event listeners for the API routes
 fetchButton.addEventListener('click', displayMemories);
 postButton.addEventListener('click', postExperience);
+
+//Onload
+toggleNav():
