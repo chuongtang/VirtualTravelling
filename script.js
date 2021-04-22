@@ -186,5 +186,5 @@ navArray.forEach(element => element.addEventListener('click', toggleNav));
 fetchButton.addEventListener('click', displayMemories);
 postButton.addEventListener('click', postExperience);
 
-//Onload
-toggleNav():
+// Onload
+toggleNav();
