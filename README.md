@@ -26,3 +26,7 @@ This site was created when I was working on Project 1 of my cohort. Imaginations
     * Prexel Videos
 
 ***Any feedback or question, please feel free to reach out. I love to learn new things every day. Thanks for visiting***
+
+## Attributions
+- images
+- 3rd party code
